@@ -69,6 +69,38 @@
         padding: 20px;
     }
     .header .area-2  img{
-        max-width: 90%;
+        max-width: 80%;
+        padding-left: 12rem;
+    }
+    .container .title h3{
+        padding-top: 16rem;
+    }
+    .container .title h1{
+        font-weight: 400;
+    }
+    .grid-box{
+        /* padding-left: 30rem; */
+        width: 100%;
+
+        /* padding-left: 5rem; */
+        /* background-color: chartreuse; */
+    }
+    .grid-wrapper{
+        flex-direction: column;
+        flex-wrap: wrap;
+        /* display: none; */
+    }
+
+    .portfolio .title .portfolio-title h1{
+        font-weight: 400;
+        /* background-color: chartreuse; */
+    }
+    .grid-wrapper-2{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .grid-box-2{
+        width: 100%;
+        /* background-color: chartreuse; */
     }
 }

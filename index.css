@@ -128,7 +128,7 @@ input[type="checkbox"]{
   font-size: 1.875rem;
     width: 100px;
     font-family: -appl  e-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     background: var(--h1);
     color: whitesmoke;
     border: 0.2rem solid var(--h1);
@@ -239,7 +239,7 @@ padding-top: 3rem;
   font-weight: bold;
 }
 .grid-box {
-  max-width: 30%;
+  width: 40%;
   padding: 3rem;
 }
 .grid-box:hover {
@@ -279,7 +279,7 @@ padding-top: 3rem;
 }
 
 .grid-box-2 {
-  max-width: 30%;
+  width: 40%;
   padding: 3rem;
 }
 .grid-box-2 img {
