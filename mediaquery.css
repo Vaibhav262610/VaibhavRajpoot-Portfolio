@@ -1,0 +1,74 @@
+@media (max-width: 1000px){
+    nav{
+      padding: 0 4rem 0 5rem;
+    }
+  }
+  @media (max-width: 920px) {
+    nav .menu-btn i{
+      display: block;
+    }
+    #click:checked ~ .menu-btn i:before{
+      content: "\f00d";
+    }
+    nav{
+      background: #05182c;
+    }
+    nav ul{
+      position: fixed;
+      top: 8rem;
+      left: -100%;
+      background: #05182c;
+      z-index: 9;
+      height: 100vh;
+      width: 100%;
+      text-align: center;
+      display: block;
+      transition: all 0.3s ease;
+    }
+    #click:checked ~ ul{
+      left: 0;
+    }
+    nav ul li{
+      width: 100%;
+      margin: 4rem 0;
+    }
+    nav ul li a{
+      width: 100%;
+      margin-left: -100%;
+      display: block;
+      font-size: 2rem;
+      transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+    #click:checked ~ ul li a{
+      margin-left: 0;
+    }
+    nav ul li a.active,
+    nav ul li a:hover{
+      background: none;
+      color: cyan;
+    }
+    .circle{
+        display: none;
+    }
+  }
+
+
+@media (max-width:768px) {
+    nav .logo{
+        font-size: 3.5rem;
+        color: white;
+    }
+    .header {
+        height: 100%;
+        margin-top: 8rem;
+    }
+    .header .row {
+        flex-direction: column;
+    }
+    .header .area-1{
+        padding: 20px;
+    }
+    .header .area-2  img{
+        max-width: 90%;
+    }
+}
