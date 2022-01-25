@@ -426,3 +426,14 @@ padding-top: 3rem;
       fill: #fccf0c;
       transform: translateY(-1.5rem);
   }
+
+  
+.end{
+  /* background-color: #EF4444; */
+  /* height: 30%; */
+  font-size: 1.6rem;
+  color: #8892B0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  }
