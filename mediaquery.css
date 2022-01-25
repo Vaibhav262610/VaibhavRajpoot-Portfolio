@@ -74,8 +74,13 @@
     }
     .container .title h3{
         padding-top: 16rem;
+        /* padding-left: 0; */
+        position: relative;
+        left: -3rem;
     }
     .container .title h1{
+        position: relative;
+        left: -4rem;
         font-weight: 400;
     }
     .grid-box{
@@ -102,5 +107,11 @@
     .grid-box-2{
         width: 100%;
         /* background-color: chartreuse; */
+    }
+}
+
+@media (max-width:450px){
+    .github{
+        display: none;
     }
 }
